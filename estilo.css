@@ -1,0 +1,93 @@
+body
+{
+    
+    background-image: url("fond.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.logo{
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 40px;
+  left: 500px; 
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+}
+.insumos{
+    font-size: 45px;
+    position: absolute;
+    top: 200px;
+    left: 260px;
+}
+    
+.alimenticios{
+    font-size: 35px;
+    position: absolute;
+    top: 160px;
+    left: 300px;
+}
+.opcalimentos{
+    font-size: 20px;
+    position: center;
+    
+
+}
+.medicos{
+    font-size: 35px;
+    position: absolute;
+    top: 160px;
+    left: 500px;
+}
+.opvacunas{
+font-size: 20px;
+    position: absolute;
+    top: 220px;
+    left: 500px;
+}
+.ganado{
+    font-size: 45px;
+    position: absolute;
+    top: 200px;
+    right: 550px;
+}
+.infoganado{
+    font-size: 20px;
+    position: absolute;
+    top: 200px;
+    right: 380px;
+}
+.contenedor {
+  display: flex;
+  justify-content: center; 
+  gap: 250px;                       
+  padding: 20px;
+}
+.seccion {
+  width: 250px;
+  padding: 70px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #a896c9;
+}
+.seccion:hover{
+    background-color: #755ea1;
+}
+
+.izquierda h2 {
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+
+.derecha h2 {
+  color: rgb(0, 0, 0);
+  text-align: right;
+}
+a{
+    color:black;
+    text-decoration: none;
+}

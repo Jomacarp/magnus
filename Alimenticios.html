@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>AgroMagnustech</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <main>     
+  <div id="Alimenticios" class="opcalimentos">
+  <h3>Alimentos - Balanceado</h3>
+  <ul class="opcalimentos">
+  <li><label>Balanceado Adultos-Stock mínimo</label></li>
+  <input type="number" id="stockAdulto" value="50" />
+  <label>Cantidad actual</label>
+  <input type="number" id="cantidadAdulto" />
+  <li><label>Balanceado Crías - Stock mínimo</label></li>
+  <input type="number" id="stockCrias" value="50" />
+  <label>Cantidad actual</label>
+  <input type="number" id="cantidadCrias" />
+  <li><button onclick="validarStockAlimentos()">Verificar stock</button></li>
+  </ul>
+  <div id="alertaStock" style="color: #8b0000; font-weight: 700; margin-top: 8px;"></div>
+</div>
+    
+    </main>
+  </body>
+</html>
