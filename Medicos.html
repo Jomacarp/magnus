@@ -10,10 +10,37 @@
   </head>
   <body>
     <main>
+      <div id="medicos" class="opvacunas">
      <ul class="opvacunas">
-          <li>Vacunación</li>
+          <li>Vacunación
+          <label for="corral1">Corral:</label>
+          <select id="corral1" name="corral1" required>
+            <option value=""disable selected>Seleccione Corral</option>
+            <option value="Corral 1">Corral 1</option>
+            <option value="Corral 2">Corral 2</option>
+            <option value="Corral 3">Corral 3</option>
+            <option value="Corral 4">Corral 4</option>
+          </select>
+          <label for="cantidad">Cantidad</label>
+          <input type="number" id="cantidad" name="cantidad"/>
+          <input type="date" id="fecha" name="fecha" required>
+        </li>
+        <li><button type="button" onclick="agregarVacunas()">Registrar Vacuna</button></li>
+  </ul>
+    <table id="Tabla-Vacunacion" border="1">
+      <thead>
+        <tr>
+          <th>Corral</th>
+          <th>Cantidad de Vacunados</th>
+          <th>Fecha</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
         </ul>
  
+    </div>    
     </main>
   </body>
 </html>
